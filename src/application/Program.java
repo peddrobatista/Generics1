@@ -8,8 +8,8 @@ public class Program {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		PrintService<Integer> ps = new PrintService<>();
-		
+		PrintService<Integer> ps = new PrintService<>(); // Pode colocar qualquer tipo, String,Double...
+														 // O programa vai funcionar do mesmo jeito
 		System.out.print("How many values? ");
 		int n = sc.nextInt();
 		
